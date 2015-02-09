@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Resume</title>
+  <title>Hugo Amorim's Resume</title>
+  <link rel="stylesheet" href="css/flexNavstyles.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="js/jQuery.js"></script>
   <script src="js/helper.js"></script>
 
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> 
-
+  <script src="js/responsive-nav.js"></script>
   <meta name="viewport" content="width=device-width">
 </head>
 <body unresolved>
@@ -18,7 +19,22 @@
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
+    <header>
+       <!-- Flex Nav code between -->
+      <a href="#header" id="headerFlexNav" class="logo center" data-scroll>
+      </a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active"><a href="#header" data-scroll>Contact Info</a></li>
+          <li class="menu-item"><a href="#workExperience" data-scroll>Work Experience</a></li>
+          <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
+          <li class="menu-item"><a href="#education" data-scroll>Education</a></li>
+          <li class="menu-item"><a href="#mapDiv" data-scroll>Locations</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="header" class="center-content clearfix">
+    <!-- Flex Nav code between -->
       <ul id="topContacts" class='flex-box'></ul>
     </div>
     <div style='clear: both;'></div>
@@ -36,7 +52,7 @@
     </div>
     <div id="letsConnect" class='dark-gray'>
       <h2 class='orange center-text'>Let's Connect</h2>
-        <ul id="footerContacts" class="flex-box">
+        <ul id="footerContacts" class="flex-box center-content">
       </ul>
     </div>
   </div>
@@ -88,5 +104,8 @@
       document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>

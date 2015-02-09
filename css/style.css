@@ -1,3 +1,404 @@
+header {
+  background: #c8c131;
+}
+
+
+@media screen and (min-width: 320px)
+and (max-width : 635px) {
+
+
+img.biopic {
+display:none;
+}
+
+#name {
+  margin-bottom: 0;
+  padding-left: 10px;
+  color:olive;
+}
+
+#headerFlexNav {
+line-height: 35px;
+float: left;
+}
+
+#headerFlexNav > span {
+ padding-left: 10px;
+}
+
+#header {
+background-color: olive;
+padding-top: 80px;
+padding-left: 10px;
+padding-bottom: 10px
+}
+
+#topContacts {
+padding-top: 10px;
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: left;
+}
+
+.white-text {
+font-weight: normal;
+color: #FFFFFF;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.orange-text {
+color: #c8c131;
+padding:0px;
+}
+
+.nav-collapse a:active, .nav-collapse .active a {
+background: olive;
+}
+
+ul li{
+list-style-type: none;
+}
+
+#skills > li > span{
+  margin-left:0px;
+}
+
+.welcome-message {
+  font-style: normal;
+  font-size: 48px;
+  color: #F3F3F3;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#mapDiv {
+display: none;
+}
+
+#main > header > nav > ul > li:nth-child(5) > a{
+display: none;
+}
+
+h2{
+font-weight: light;
+font-size: 24px;
+color: #999999;
+line-height: 29px;
+padding: 30px 10px 10px 10px;
+
+}
+
+p {
+  width:100%;
+}
+
+.work-entry{
+  margin: 20px 10px 5px;
+}
+
+.project-entry{
+  margin: 5px 10px 5px;
+}
+
+#workExperience > div > p > br:nth-child(1){
+  display:none;
+}
+
+a {
+color: #1199C3;
+text-decoration: none;
+display: block;
+}
+
+.date-text {
+font-style: italic;
+font-size: 14px;
+color: #999999;
+line-height: 16px;
+}
+
+.location-text{
+font-style: italic;
+font-size: 14px;
+color: #999999;
+line-height: 16px;
+}
+
+#workExperience > div:nth-child(2){
+   margin-top: 5px;
+}
+
+#skillsH3 {
+color: #c8c131;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px;
+}
+
+#projects > div > p > br {
+  display: none;
+}
+
+.gray {
+background-color: #F3F3F3;
+padding-bottom: 10px;
+clear: both;
+}
+
+header span {
+font-weight: normal;
+}
+
+.nav-collapse a {
+  padding-left: 10px;
+}
+
+#education > div {
+  padding-left: 10px;
+}
+
+#letsConnect > h2 {
+color: olive;
+padding-top: 10px;
+}
+.orange {
+background-color: #c8c131;
+}
+
+#education > h3{
+  padding-left: 10px;
+}
+
+#letsConnect {
+background-color: olive;
+}
+
+#footerContacts {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+button{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#skills {
+  margin-bottom: 10px;
+}
+
+}
+
+
+
+@media screen and (min-width: 635px)
+and (max-width :943px) {
+
+.biopic {
+float: left;
+padding: 10px 30px 10px 10px;
+width: 200px;
+}
+
+
+#name {
+  margin-bottom: 0;
+  padding-left: 10px;
+  color:olive;
+  display: inline;
+}
+
+#headerFlexNav {
+line-height: 35px;
+float: left;
+}
+
+#headerFlexNav > span {
+ padding-left: 10px;
+}
+
+#header {
+background-color: olive;
+padding-left: 10px;
+padding-bottom: 10px
+}
+
+#header{
+padding-top: 150px;
+}
+
+#topContacts {
+padding-top: 10px;
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: left;
+}
+
+.white-text {
+font-weight: normal;
+color: #FFFFFF;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.orange-text {
+color: #c8c131;
+padding:0px;
+}
+
+.nav-collapse a:active, .nav-collapse .active a {
+background: olive;
+}
+
+ul li{
+list-style-type: none;
+}
+
+#skills > li > span{
+  margin-left:0px;
+}
+
+.welcome-message {
+  font-style: normal;
+  font-size: 48px;
+  color: #F3F3F3;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#mapDiv {
+display: none;
+}
+
+#main > header > nav > ul > li:nth-child(5) > a{
+display: none;
+}
+
+h2{
+font-weight: light;
+font-size: 24px;
+color: #999999;
+line-height: 29px;
+padding: 30px 10px 10px 10px;
+
+}
+
+p {
+  width:100%;
+}
+
+.work-entry{
+  margin: 20px 10px 5px;
+}
+
+.project-entry{
+  margin: 5px 10px 5px;
+}
+
+#workExperience > div > p > br:nth-child(1){
+  display:none;
+}
+
+a {
+color: #1199C3;
+text-decoration: none;
+display: block;
+}
+
+.date-text {
+font-style: italic;
+font-size: 14px;
+color: #999999;
+line-height: 16px;
+}
+
+.location-text{
+font-style: italic;
+font-size: 14px;
+color: #999999;
+line-height: 16px;
+}
+
+#workExperience > div:nth-child(2){
+   margin-top: 5px;
+}
+
+#skillsH3 {
+color: #c8c131;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px;
+}
+
+#projects > div > p > br {
+  display: none;
+}
+
+.gray {
+background-color: #F3F3F3;
+padding-bottom: 10px;
+clear: both;
+}
+
+header span {
+font-weight: normal;
+}
+
+.nav-collapse a {
+  padding-left: 10px;
+}
+
+#education > div {
+  padding-left: 10px;
+}
+
+#letsConnect > h2 {
+color: olive;
+padding-top: 10px;
+}
+.orange {
+background-color: #c8c131;
+}
+
+#education > h3{
+  padding-left: 10px;
+}
+
+#letsConnect {
+background-color: olive;
+}
+
+#footerContacts {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+button{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#skills {
+  margin-bottom: 10px;
+}
+
+
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 943px) {
 * {
   padding:0;
   margin:0;
@@ -15,13 +416,14 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #ff;
   line-height: 48px;
   display: inline;
+  color: olive;
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: light;
   font-size: 24px;
   color: #999999;
   line-height: 29px;
@@ -70,6 +472,7 @@ p {
   font-size: 14px;
   color: #333333;
   line-height: 21px;
+  width: 100%;
 }
 
 a {
@@ -80,28 +483,33 @@ a {
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 18px;
+  font-style: normal;
+  font-size: 48px;
   color: #F3F3F3;
-  line-height: 28px;
+  line-height: 50px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
-  display: none;
+  color: #c8c131;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #c8c131;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #c8c131;
 }
 
 .white-text {
-  font-weight: bold;
+  font-weight: normal;
   color: #FFFFFF;
+  margin-right: 20px;
 }
 
 .gray {
@@ -111,12 +519,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: olive;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: olive;
 }
 
 .flex-box {
@@ -124,12 +532,12 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
   padding: 10px;
 }
 
 .center-content {
-  padding-top: 2.5%;
+  padding-top: 5.5%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2.5%
@@ -141,9 +549,8 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
+  padding: 10px 30px 10px 10px;
   width: 200px;
-  display: none;
 }
 
 img {
@@ -170,29 +577,10 @@ span {
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
+
+#letsConnect {
     margin-top: 5%;
   }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
-}
 
 #map {
   display: block;
@@ -206,10 +594,49 @@ span {
   width: 100%;
   padding-bottom: 5%;
 }
-
-@media only screen and (min-width: 750px) {
-  #skillsH3,
-  .biopic {
-    display: block;
-  }
+header .logo{
+  padding-left: 5%;
 }
+
+header span {
+  font-weight: normal;
+}
+
+.nav-collapse a {
+padding: 2em 2em 1em;
+}
+
+.nav-collapse a:active, .nav-collapse .active a {
+  background: olive;
+}
+
+ul#skills {
+  padding: 0px;
+
+}
+
+#skills > li> span {
+  padding: 0px;
+}
+
+#letsConnect > h2 {
+  color: olive;
+}
+
+#footerContacts {
+  padding-top: 1.5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
