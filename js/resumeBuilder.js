@@ -2,7 +2,7 @@ var bio = {
     "name": "Hugo Amorim",
     "role": "Front-end Web Developer",
     "contacts": {
-        "mobile": "508.641.7062",
+        "mobile": "508.642.7062",
         "email": "info@hugoamorim.com",
         "github": "hamorim85",
         "twitter": "@TheAmazingHugo",
